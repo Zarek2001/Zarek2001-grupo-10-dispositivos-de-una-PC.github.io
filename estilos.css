@@ -1,0 +1,110 @@
+.alinear-derecha{
+    text-align: right;
+    }
+    html {
+      min-height: 10%;
+      position: relative;
+    }
+    body {
+        margin-top: 120px;
+        margin-right: 0px;
+        margin-bottom: 90px;
+        margin-left: 0px;
+        padding:0;
+        height:100vh;
+        background-color: #DBF9FC;
+    }
+    figure {
+        text-align: center;
+    }
+    p{
+        text-align: justify;
+        margin: 20px;
+    }
+    iframe {
+    width: 90%;
+    height:80vh;
+    margin-top: 5px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    }
+    table {
+      border:solid;
+      background-color: #33475b;
+      margin: 40px;
+      text-align: center;
+      align-content: center;
+    }
+    td, th {
+      border:solid;
+      text-align: justify;
+    }
+    header {
+        display: flex;
+        background-color: grey;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        border: none;
+        padding: 20px;
+        margin: 0;
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        position:fixed;
+        justify-content: space-between;
+    }
+    #header {
+        position:fixed;
+        width:100%;
+        height:80px;
+        top:0;
+        left:0;
+        margin: 0;
+        z-index: 999px;
+        box-shadow: 0px 0px 6px 0px;
+    }
+    .nombre-institucion{
+        align-items: center;
+        display: flex;  
+        text-align: center;  
+        align-content: center;    
+    }
+    .logo {
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        text-align: center;
+    }
+    .logo img{
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-right: 20px;
+        height: 70;
+    }
+    .body {
+        display:flex;
+        flex-direction:column;
+    }
+    .content {
+        flex: 1;
+    }
+    #wrapper {
+        min-height:100%;
+        position:absolute;
+    }
+    #content {
+        padding-bottom:60px; /* Altura del footer */
+    }
+    #footer {
+        width:100%;
+        height:60px;
+        top: 800%;
+        bottom:0;
+        left:0;
+        margin: 0;
+        border: none;
+    }
